@@ -60,6 +60,7 @@ void reverse()
 {
     struct node *prevnode, *currentnode, *nextnode;
     prevnode=0;
+    int g = display();
     currentnode= nextnode = head;
     while(nextnode!=0)
     {
