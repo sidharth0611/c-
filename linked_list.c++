@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+int display();
 struct node
 {
     int data;
